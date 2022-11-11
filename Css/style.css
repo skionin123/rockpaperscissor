@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.container{
+
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+    
+}
+.button{
+    display: flex;
+    height: 38vh;
+
+}
+.weapons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 11vmax;
+    width: 11vmax;
+    margin: 0.5vmax 1.8vmax;
+    cursor: pointer;
+    
+}
+
+.weapons:hover img{
+    border: 3px solid black;
+}
+.button{
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.wonlost{
+    display: flex;
+    border: solid white;
+    padding: 0 150px;
+    border-radius: 5px;
+}
+.won {
+    padding-right: 20px;
+
+}
+.info .result {
+    color: rgb(228, 84, 84);
+    padding: 20px 150px;
+}
+#status {
+    color: white;
+}
+.rock {
+    color: rgb(172, 57, 57);
+}
+
