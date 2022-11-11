@@ -5,8 +5,8 @@ document.querySelector('.container').style.display = "flex";
 
     let add = 1;
     document.querySelector('#rock').addEventListener('click', choseRock);
-document.querySelector('#paper').addEventListener('click', chosePaper);
-document.querySelector('#scissor').addEventListener('click', choseScissor);
+    document.querySelector('#paper').addEventListener('click', chosePaper);
+    document.querySelector('#scissor').addEventListener('click', choseScissor);
     
     function choseRock(){
     let rock = 0;
